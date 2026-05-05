@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="bgW" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F2EB"/>
+      <stop offset="100%" stop-color="#EDE8DF"/>
+    </linearGradient>
+    <linearGradient id="doorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8E2D8"/>
+      <stop offset="100%" stop-color="#D8D1C4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#bgW)"/>
+
+  <!-- Architectural subtle wallpaper pattern -->
+  <g opacity="0.06" stroke="#9E8B72" stroke-width="0.4">
+    <line x1="0" y1="60" x2="800" y2="60"/><line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/><line x1="0" y1="240" x2="800" y2="240"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="0" y1="420" x2="800" y2="420"/>
+    <line x1="100" y1="0" x2="100" y2="480"/><line x1="200" y1="0" x2="200" y2="480"/>
+    <line x1="300" y1="0" x2="300" y2="480"/><line x1="400" y1="0" x2="400" y2="480"/>
+    <line x1="500" y1="0" x2="500" y2="480"/><line x1="600" y1="0" x2="600" y2="480"/>
+    <line x1="700" y1="0" x2="700" y2="480"/>
+  </g>
+
+  <!-- Grand front door -->
+  <rect x="290" y="90" width="220" height="340" rx="3" fill="url(#doorGrad)" stroke="#9E8B72" stroke-width="2"/>
+  <!-- Door panels -->
+  <rect x="305" y="108" width="83" height="130" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+  <rect x="412" y="108" width="83" height="130" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+  <rect x="305" y="255" width="83" height="155" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+  <rect x="412" y="255" width="83" height="155" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+  <!-- Arched transom window -->
+  <path d="M290,90 Q290,45 400,45 Q510,45 510,90 Z" fill="#E2DBD0" stroke="#9E8B72" stroke-width="2"/>
+  <path d="M310,90 Q310,62 400,62 Q490,62 490,90 Z" fill="none" stroke="#9E8B72" stroke-width="1" opacity="0.5"/>
+  <!-- Transom mullions -->
+  <line x1="400" y1="45" x2="400" y2="90" stroke="#9E8B72" stroke-width="1" opacity="0.5"/>
+  <line x1="355" y1="68" x2="445" y2="68" stroke="#9E8B72" stroke-width="0.75" opacity="0.4"/>
+  <!-- Door hardware - knob -->
+  <circle cx="398" cy="250" r="6" fill="#9E8B72" opacity="0.8"/>
+  <circle cx="402" cy="250" r="6" fill="#9E8B72" opacity="0.8"/>
+
+  <!-- Flanking pilasters -->
+  <rect x="255" y="85" width="35" height="350" rx="2" fill="#E2DBD0" stroke="#C4B49A" stroke-width="1"/>
+  <rect x="510" y="85" width="35" height="350" rx="2" fill="#E2DBD0" stroke="#C4B49A" stroke-width="1"/>
+  <!-- Pilaster caps -->
+  <rect x="248" y="80" width="49" height="12" rx="1" fill="#C4B49A" opacity="0.7"/>
+  <rect x="503" y="80" width="49" height="12" rx="1" fill="#C4B49A" opacity="0.7"/>
+
+  <!-- Steps -->
+  <rect x="230" y="430" width="340" height="15" rx="1" fill="#C4B49A" opacity="0.45"/>
+  <rect x="245" y="418" width="310" height="14" rx="1" fill="#C4B49A" opacity="0.35"/>
+  <rect x="260" y="406" width="280" height="14" rx="1" fill="#C4B49A" opacity="0.28"/>
+
+  <!-- Key on a ribbon - centered, elegant -->
+  <g transform="translate(400, 310)">
+    <!-- ribbon -->
+    <path d="M-30,-8 Q-15,-18 0,-8 Q15,2 30,-8" fill="none" stroke="#9E8B72" stroke-width="2" opacity="0.7"/>
+    <!-- key body -->
+    <ellipse cx="0" cy="18" rx="16" ry="16" fill="none" stroke="#9E8B72" stroke-width="2.5" opacity="0.8"/>
+    <ellipse cx="0" cy="18" rx="9" ry="9" fill="none" stroke="#9E8B72" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="34" x2="0" y2="62" stroke="#9E8B72" stroke-width="2.5" opacity="0.8"/>
+    <line x1="0" y1="47" x2="10" y2="47" stroke="#9E8B72" stroke-width="2" opacity="0.7"/>
+    <line x1="0" y1="56" x2="8" y2="56" stroke="#9E8B72" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Left side potted plant -->
+  <ellipse cx="185" cy="425" rx="30" ry="12" fill="#C4B49A" opacity="0.35"/>
+  <rect x="170" y="390" width="30" height="36" rx="2" fill="#C4B49A" opacity="0.4"/>
+  <ellipse cx="185" cy="380" rx="22" ry="30" fill="#B8AFA0" opacity="0.3"/>
+  <ellipse cx="185" cy="365" rx="15" ry="22" fill="#C4B49A" opacity="0.25"/>
+  <!-- Right side potted plant -->
+  <ellipse cx="615" cy="425" rx="30" ry="12" fill="#C4B49A" opacity="0.35"/>
+  <rect x="600" y="390" width="30" height="36" rx="2" fill="#C4B49A" opacity="0.4"/>
+  <ellipse cx="615" cy="380" rx="22" ry="30" fill="#B8AFA0" opacity="0.3"/>
+  <ellipse cx="615" cy="365" rx="15" ry="22" fill="#C4B49A" opacity="0.25"/>
+
+  <!-- Overhead lanterns -->
+  <line x1="320" y1="0" x2="320" y2="30" stroke="#9E8B72" stroke-width="1.5" opacity="0.5"/>
+  <rect x="308" y="28" width="24" height="36" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+  <line x1="480" y1="0" x2="480" y2="30" stroke="#9E8B72" stroke-width="1.5" opacity="0.5"/>
+  <rect x="468" y="28" width="24" height="36" rx="2" fill="none" stroke="#9E8B72" stroke-width="1.2" opacity="0.6"/>
+</svg>

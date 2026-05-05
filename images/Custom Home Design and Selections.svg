@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <rect width="800" height="480" fill="#EDE8DF"/>
+  <!-- blueprint paper -->
+  <rect x="50" y="30" width="470" height="420" rx="2" fill="#F6F2EB" stroke="#C4B49A" stroke-width="1"/>
+  <!-- blueprint lines fine grid -->
+  <g stroke="#C4B49A" stroke-width="0.35" opacity="0.4">
+    <line x1="50" y1="70" x2="520" y2="70"/><line x1="50" y1="110" x2="520" y2="110"/>
+    <line x1="50" y1="150" x2="520" y2="150"/><line x1="50" y1="190" x2="520" y2="190"/>
+    <line x1="50" y1="230" x2="520" y2="230"/><line x1="50" y1="270" x2="520" y2="270"/>
+    <line x1="50" y1="310" x2="520" y2="310"/><line x1="50" y1="350" x2="520" y2="350"/>
+    <line x1="50" y1="390" x2="520" y2="390"/>
+    <line x1="100" y1="30" x2="100" y2="450"/><line x1="150" y1="30" x2="150" y2="450"/>
+    <line x1="200" y1="30" x2="200" y2="450"/><line x1="250" y1="30" x2="250" y2="450"/>
+    <line x1="300" y1="30" x2="300" y2="450"/><line x1="350" y1="30" x2="350" y2="450"/>
+    <line x1="400" y1="30" x2="400" y2="450"/><line x1="450" y1="30" x2="450" y2="450"/>
+    <line x1="500" y1="30" x2="500" y2="450"/>
+  </g>
+  <!-- floor plan walls -->
+  <rect x="85" y="65" width="400" height="320" fill="none" stroke="#7A6550" stroke-width="3"/>
+  <!-- interior walls -->
+  <line x1="85" y1="220" x2="300" y2="220" stroke="#7A6550" stroke-width="2.5"/>
+  <line x1="300" y1="65" x2="300" y2="320" stroke="#7A6550" stroke-width="2.5"/>
+  <line x1="300" y1="165" x2="485" y2="165" stroke="#7A6550" stroke-width="2.5"/>
+  <!-- door arcs -->
+  <path d="M85,220 Q130,220 130,180" fill="none" stroke="#9E8B72" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M300,165 Q340,165 340,205" fill="none" stroke="#9E8B72" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- windows -->
+  <line x1="155" y1="65" x2="215" y2="65" stroke="#9E8B72" stroke-width="3"/>
+  <line x1="340" y1="65" x2="400" y2="65" stroke="#9E8B72" stroke-width="3"/>
+  <line x1="485" y1="180" x2="485" y2="240" stroke="#9E8B72" stroke-width="3"/>
+  <!-- room labels -->
+  <text x="185" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#7A6550" opacity="0.7">Living</text>
+  <text x="185" y="310" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#7A6550" opacity="0.7">Kitchen</text>
+  <text x="390" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#7A6550" opacity="0.7">Primary</text>
+  <text x="390" y="270" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#7A6550" opacity="0.7">Study</text>
+  <!-- title block -->
+  <rect x="85" y="395" width="400" height="35" fill="none" stroke="#C4B49A" stroke-width="0.75"/>
+  <line x1="250" y1="395" x2="250" y2="430" stroke="#C4B49A" stroke-width="0.75"/>
+  <text x="167" y="417" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#7A6550" opacity="0.7" letter-spacing="1">FLOOR PLAN</text>
+  <text x="367" y="417" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#7A6550" opacity="0.7" letter-spacing="1">SCALE 1/4" = 1'</text>
+  <!-- material swatch panel -->
+  <rect x="555" y="30" width="200" height="420" rx="2" fill="#F6F2EB" stroke="#C4B49A" stroke-width="1"/>
+  <text x="655" y="60" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#7A6550" letter-spacing="2">SELECTIONS</text>
+  <line x1="575" y1="70" x2="735" y2="70" stroke="#C4B49A" stroke-width="0.75"/>
+  <!-- swatch 1 - stone -->
+  <rect x="575" y="90" width="70" height="50" rx="1" fill="#C4B49A"/>
+  <text x="660" y="110" font-family="Georgia,serif" font-size="9" fill="#7A6550" opacity="0.8">Limestone</text>
+  <text x="660" y="124" font-family="Georgia,serif" font-size="8" fill="#9E8B72" opacity="0.7">Exterior</text>
+  <!-- swatch 2 - dark wood -->
+  <rect x="575" y="160" width="70" height="50" rx="1" fill="#5C4A32"/>
+  <text x="660" y="180" font-family="Georgia,serif" font-size="9" fill="#7A6550" opacity="0.8">White Oak</text>
+  <text x="660" y="194" font-family="Georgia,serif" font-size="8" fill="#9E8B72" opacity="0.7">Flooring</text>
+  <!-- swatch 3 - cream -->
+  <rect x="575" y="230" width="70" height="50" rx="1" fill="#EDE8DF" stroke="#C4B49A" stroke-width="0.75"/>
+  <text x="660" y="250" font-family="Georgia,serif" font-size="9" fill="#7A6550" opacity="0.8">Cream Plaster</text>
+  <text x="660" y="264" font-family="Georgia,serif" font-size="8" fill="#9E8B72" opacity="0.7">Interior Wall</text>
+  <!-- swatch 4 - slate -->
+  <rect x="575" y="300" width="70" height="50" rx="1" fill="#3D3529"/>
+  <text x="660" y="320" font-family="Georgia,serif" font-size="9" fill="#7A6550" opacity="0.8">Slate</text>
+  <text x="660" y="334" font-family="Georgia,serif" font-size="8" fill="#9E8B72" opacity="0.7">Primary Bath</text>
+  <!-- swatch 5 - gold accent -->
+  <rect x="575" y="370" width="70" height="50" rx="1" fill="#9E8B72"/>
+  <text x="660" y="390" font-family="Georgia,serif" font-size="9" fill="#7A6550" opacity="0.8">Brushed Gold</text>
+  <text x="660" y="404" font-family="Georgia,serif" font-size="8" fill="#9E8B72" opacity="0.7">Hardware</text>
+</svg>
